@@ -3,4 +3,4 @@ function getRandomInt(max) { // number between 1 & max
 }
 
 let img = document.getElementById("apiResponse");
-img.src = "./images/" + getRandomInt(6) +".png";
+window.location.href = "./images/" + getRandomInt(6) +".png";
